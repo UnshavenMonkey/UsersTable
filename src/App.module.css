@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background: #F7F7F7;
+}
+
+.headerListUser {
+    margin: 12px 0 20px 27px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.searchWrap {
+    width: 961px;
+    height: 102px;
+    margin-left: 27px;
+
+    background: #ffffff;
+    box-shadow: 0 18px 15px rgba(148, 148, 148, 0.15);
+    border-radius: 7px
+}
+
+.searchInput {
+    width: 901px;
+    height: 34px;
+    margin: 12px 0 0 16px;
+    padding-left: 45px;
+
+    border-radius: 4px;
+    border: none;
+    background: url(./img/source_icons_search 1.svg) no-repeat #ECEFF0;
+    background-position: 20px;
+    box-sizing: border-box;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #9EAAB4;
+}
+
+.clearSearchFilter {
+    display: flex;
+}
+
+.buttonClearSearch {
+    margin: 20px 10px;
+    display: flex;
+    align-items: end;
+    border: none;
+    background-color: unset;
+}
+
+.buttonClearSearch:hover {
+    background-color: lightgray;
+}
+
+.buttonClearSearch:active {
+    background-color: gray;
+}
+
+.imgClearSearch {
+    margin: 0 10px;
+}
+
+.textClearSearch {
+    margin: 0 10px;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+
+.sortedWrap {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    display: flex;
+
+    color: #9EAAB4;
+}
+
+.sortedItem, .sortedText {
+    margin: 72px 0 0 27px;
+    border: none;
+    background-color: unset;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+
+    color: #9EAAB4;
+}
+
+.sortedItem:active {
+    background-color: lightgray;
+}
+
+.sortedItem:focus {
+    background-color: lightgray;
+}
+
+
+.listUsers {
+    width: 961px;
+    margin-left: 27px;
+    margin-top: 15px;
+
+    background: #FFFFFF;
+    border-radius: 7px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+
+    color: #9EAAB4;
+}
+
+.tableUsers {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.tableRow {
+    padding: 10px;
+    border-bottom: 2px solid #9EAAB4;
+}
+
+.deleteButton {
+    background: url(./img/X.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
