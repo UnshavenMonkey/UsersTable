@@ -70,8 +70,6 @@ export function App() {
         return <div>Загрузка...</div>;
     }
 
-    console.log(items);
-
     return (
       <div className={style.container}>
           <h3 className={style.headerListUser}>Список пользователей</h3>
